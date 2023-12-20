@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <-- google font --> 
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+     <!-- animation  -->
+     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!-- animate pic  -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- jquery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <!-- font icon  -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   <style>
+    body{
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1417' height='556' preserveAspectRatio='none' viewBox='0 0 1417 556'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1755%26quot%3b)' fill='none'%3e%3crect width='1417' height='556' x='0' y='0' fill='url(%26quot%3b%23SvgjsRadialGradient1756%26quot%3b)'%3e%3c/rect%3e%3cpath d='M0 0L794.11 0L0 814.47z' filter='url(%23SvgjsFilter1757)' fill='rgba(162%2c 52%2c 52%2c 1)'%3e%3c/path%3e%3cpath d='M0 556L794.11 556L0 -258.47z' filter='url(%23SvgjsFilter1757)' fill='rgba(162%2c 52%2c 52%2c 1)'%3e%3c/path%3e%3cpath d='M1417 556L622.89 556L1417 -258.47z' filter='url(%23SvgjsFilter1757)' fill='rgba(162%2c 52%2c 52%2c 1)'%3e%3c/path%3e%3cpath d='M1417 0L622.89 0L1417 814.47z' filter='url(%23SvgjsFilter1757)' fill='rgba(162%2c 52%2c 52%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1755'%3e%3crect width='1417' height='556' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='50%25' cy='50%25' r='761.09' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient1756'%3e%3cstop stop-color='rgba(158%2c 0%2c 0%2c 1)' offset='0.55'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 0%2c 0%2c 1)' offset='0.8'%3e%3c/stop%3e%3c/radialGradient%3e%3cfilter height='130%25' id='SvgjsFilter1757'%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='-5' in='TopLeftG' result='TopLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopLeftO' result='TopLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='-5' in='TopRightG' result='TopRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopRightO' result='TopRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='5' in='BottomLeftG' result='BottomLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomLeftO' result='BottomLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='5' in='BottomRightG' result='BottomRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomRightO' result='BottomRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeMerge%3e%3cfeMergeNode in='TopLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='TopRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='SourceGraphic'%3e%3c/feMergeNode%3e%3c/feMerge%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e");
+      
+    }
+     /*detail of dryer*/
+     .dryer-detail{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 20px;
+          font-weight: bold;
+          color: #fff;
+         
+        }
+  /*CARDS CSS*/
+    .box{
+        border: 2px solid #000;
+        width: 400px;
+        margin: 10px auto;
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .box img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .content{
+        color: #fff;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 0.5s;
+    }
+    .box:hover .content{
+        left: 0;
+    }
+    .content p{
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding: 20px 0;
+    }
+
+    .main{
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #fff;
+    }
+   .img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+   }
+   /* card css end */
+
+
+          .lopd{
+            background-color: rgb(75, 71, 71);
+            text-align: center;
+            width: 100%;
+            height: 40px;
+            padding: 2px 2px;
+            
+          }
+          h1{
+            font-family: "Sofia", sans-serif;
+            }
+            .main {
+  font-size: 80px;
+  color: #ffffff;
+  font-family: "Sofia", sans-serif;
+  text-align: center;
+}
+p{
+  font-family: "Sofia", sans-serif;
+}
+h3{
+  font-family: "Sofia", sans-serif;
+}
+.detail{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+   </style>
+
+
+</head>
+<body>
+<!-- nav bar -->
+
+
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+ <h1 class="font-effect-fire text-danger text-center" style=" margin: 0;
+ font-size: 60px;
+ animation: animate 15s ease-in-out infinite;
+font-weight: 900;">Hair care
+</h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="About us.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="product.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                product's
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li class="dropdown-header">Hair care</li>
+                <li><a class="dropdown-item" href="hair cream.html">Hair Cream</a></li>
+                <li><a class="dropdown-item" href="shampoo.html">Hair shampoo</a></li>
+                <li><a class="dropdown-item" href="oil.html">Hair Oil</a></li>
+                <li><a class="dropdown-item" href="conditioner.html">Hair conditioners</a></li>
+                <li><a class="dropdown-item" href="hair mask.html">Hair Mask's</a></li>
+                <li><a class="dropdown-item" href="spray.html">Hair spray's</a></li>
+                <li><a class="dropdown-item" href="hair serum.html">Hair serum's</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ld.html">Lastest development</a>
+                </li>
+                  
+            <li class="nav-item">
+              <a class="nav-link" href="contact us.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison (1).html">comparison</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- nav bar ended  -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 class="main">HAIR DRYERS</h1>
+<br>
+<p class="detail">Hair dryers, also known as blow dryers, are versatile personal grooming appliances designed to quickly and efficiently dry wet hair while also allowing for various styling options. They typically consist of a motor-driven fan that produces a flow of air and heating elements that warm the air before it's blown out through a nozzle. Hair dryers come with various heat and speed settings to suit different hair types and styling needs. They often feature additional technologies such as ceramic or tourmaline coatings to reduce frizz and promote even heating, as well as ionization to reduce static electricity and enhance hair shine. Some high-end models may also include attachments like diffusers for curly hair or concentrators for precise styling. Hair dryers have become an essential tool in personal grooming routines, enabling users to achieve a wide range of hairstyles quickly and easily.</p>
+
+
+    <!-- cards -->
+  <div class="box">
+    <img src="hair equipment's/hair dry1.png" class="img">
+    <div class="content">
+        <h3>RADIANTWAVE DRYER</h3>
+        <p>-The Radiant Wave Dryer utilizes advanced technology for quick and effective hair drying, reducing the time spent on your daily hair routine.<br>
+        <br>
+        -A concentrator nozzle attachment focuses the airflow for precise styling and smooth, polished finishes.</p>
+
+<!-- button1 -->
+        <div class="buttons">
+          <button class="add-to-cart-button" onclick="addtoCart()">Add To Cart</button>
+          <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+<script>
+  function addtoCart() {
+    alert('Added To Cart!')
+  }
+
+  function buyNow() {
+    alert('Thanks for buying.')
+  }
+</script>
+
+    
+
+  <div class="box">
+    <img src="hair equipment's/hair dry2.png" class="img">
+    <div class="content">
+        <h3> coHYDRALOCK DRYER</h3>
+        <p>-The HydraLock Dryer utilizes cutting-edge hydration technology to infuse moisture into the hair as it dries, reducing the risk of heat-related damage and leaving hair visibly healthier and more manageable.<br>
+        <br>
+         -The dryer is equipped with a long power cord for convenient use, whether in a professional salon or at home.</p>
+
+         <!-- button2 -->
+        <div class="buttons">
+          <button class="add-to-cart-button" onclick="addtoCart()">Add To Cart</button>
+          <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+<script>
+  function addtoCart() {
+    alert('Added To Cart!')
+  }
+
+  function buyNow() {
+    alert('Thanks for buying.')
+  }
+</script>
+
+  <div class="box">
+    <img src="hair equipment's/hair dry3.png" class="img">
+    <div class="content">
+        <h3>VOLUME BOOST DRYER</h3>
+        <p>-Volume boost dryers usually come with multiple heat and speed settings, allowing you to customize the drying experience based on your hair type and styling preferences.<br>
+        <br>
+        -These dryers are often designed to be lightweight, making them comfortable to hold and easy to maneuver while styling.</p>
+
+ <!-- button3 -->
+ <div class="buttons">
+  <button class="add-to-cart-button" onclick="addtoCart()">Add To Cart</button>
+  <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+</div>
+</div>
+</div>
+
+<script>
+function addtoCart() {
+alert('Added To Cart!')
+}
+
+function buyNow() {
+alert('Thanks for buying.')
+}
+</script>
+
+
+  <div class="box">
+    <img src="hair equipment's/hair dry4.png" class="img">
+    <div class="content">
+        <h3>AQUAWAVE DRYER</h3>
+        <p>-The Aquawave Dryer utilizes innovative aqua-ionic technology to dry hair efficiently and gently.<br>
+        <br>
+        -Suitable for a wide range of hair types, from fine and straight to thick and curly, making it a versatile tool for any user.</p>
+         <!-- button4 -->
+         <div class="buttons">
+          <button class="add-to-cart-button" onclick="addtoCart()">Add To Cart</button>
+          <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+<script>
+  function addtoCart() {
+    alert('Added To Cart!')
+  }
+
+  function buyNow() {
+    alert('Thanks for buying.')
+  }
+</script>
+
+
+
+   <div class="box">
+    <img src="hair equipment's/hair dry5.png" class="img">
+    <div class="content">
+        <h3>ZENBLISS DRYER</h3>
+        <p>-The Zen Bliss Hair Dryer is equipped with a powerful motor that delivers fast and efficient drying, significantly reducing drying time.<br>
+        <br>
+        -The Zen Bliss Hair Dryer is designed to deliver professional-quality results at home, making it suitable for everyday use or special occasions.</p>
+
+         <!-- button5 -->
+         <div class="buttons">
+          <button class="add-to-cart-button" onclick="addtoCart()">Add To Cart</button>
+          <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+<script>
+  function addtoCart() {
+    alert('Added To Cart!')
+  }
+
+  function buyNow() {
+    alert('Thanks for buying.')
+  }
+</script>
+
+
+  <div class="box">
+    <img src="hair equipment's/hair dry6.png" class="img">
+    <div class="content">
+        <h3>GENTLEBREEZE DRYER</h3>
+        <p>-The Gentle Breeze Hair Dryer is designed to be compact and lightweight, making it easy to handle and perfect for travel.<br>
+        <br>
+        -This hair dryer is engineered for quiet operation, providing a more peaceful drying experience.</p>
+
+         <!-- button6 -->
+         <div class="buttons">
+          <button class="add-to-cart-button" onclick="addtoCart()">Add To Cart</button>
+          <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+<script>
+  function addtoCart() {
+    alert('Added To Cart!')
+  }
+
+  function buyNow() {
+    alert('Thanks for buying.')
+  }
+</script>
+
+
+  <div class="box">
+    <img src="hair equipment's/hair dry 7.png" class="img">
+    <div class="content">
+        <h3> RETRACTABLE CORD DRYER</h3>
+        <p>-These hair dryers feature a special mechanism within the handle that allows you to retract and store the power cord. This design is highly convenient for storage and organization, as it prevents the cord from becoming tangled or getting in the way when not in use.<br>
+        <br>
+        -These hair dryers feature a retractable cord for convenient storage.</p>
+<!-- button7 -->
+        <div class="buttons">
+          <button class="add-to-cart-button" onclick="addtoCart()">Add To Cart</button>
+          <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+        </div>
+    </div>
+  </div>
+
+<script>
+  function addtoCart() {
+    alert('Added To Cart!')
+  }
+
+  function buyNow() {
+    alert('Thanks for buying.')
+  }
+</script>
+
+    <div class="box">
+      <img src="hair equipment's/hair dry9.png" class="img">
+      <div class="content">
+        <h3>INFRARED HAIR DRYER</h3>
+        <p>-Infrared hair dryers use infrared heat to dry hair from the inside out, which can be gentler on the hair and speed up drying times.<br>
+        <br>
+        -These are compact and lightweight hair dryers designed for easy portability during travel.</p>
+  
+           <!-- button9 -->
+           <div class="buttons">
+            <button class="add-to-cart-button" onclick="addtoCart()">Add To Cart</button>
+            <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    
+<!-- cards end -->
+
+
+ <!-- page nation  -->
+ <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+    </li>
+    <li class="page-item"><a class="page-link" href="hair dryers.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="straightner.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="massager.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="steamers.html">4</a></li>
+    <li class="page-item"><a class="page-link" href="spa caps.html">Next</a></li>
+    <li class="page-item">
+    </li>
+  </ul>
+</nav>
+<br>
+<br>
+<br>
+
+     <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-primary bg-primary btn-floating m-1" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiMuN66yICCAxXCQkECHX1UClIYABAAGgJ3cw&ase=2&gclid=Cj0KCQjwhL6pBhDjARIsAGx8D58dk7TisZPAuPb3vXRuUv1573FlffVpnepiZKT6gbpwT7QoMpisJvkaAkQNEALw_wcB&ohost=www.google.com&cid=CAESV-D2dMnR0MonlTZMaXgwSGkj1uuS5mr8fKE9lMV3oYJTHIjUqFpqZfxts7TuyQfknijAzE6oeQ4BjxVIJRgGixFH773Nw-ydm2pG_BryIe2FTQsEOWCzoA&sig=AOD64_0tL_3vfJbdD6Xnw00WYpjFgBfjlQ&q&nis=4&adurl&ved=2ahUKEwj6mti6yICCAxVESPEDHbrPDBYQ0Qx6BAgGEAE" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light bg-primary btn-floating m-1" href="https://twitter.com/login?lang=en" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light bg-primary btn-floating m-1" href="https://www.google.co.uk/" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light bg-primary btn-floating m-1" href="https://www.instagram.com/" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light bg-primary btn-floating m-1" href="https://pk.linkedin.com/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our new Deals</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Hair care is all the things people do to keep their hair clean, healthy-looking, and attractive
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="mb-4">
+      <!--Grid row-->
+      <div class="row">
+        <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Hair care
+          </h6>
+          <p>
+            Hair care is a very important and a hygienic routine for both men and women. Nobody wants to go out with a frizzy, dry and unhealthy hair. By just washing your hair doesn’t necessarily mean you are sure you’ve done it right, hair care also involves proper grooming and making sure you are using the right hair care products.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Home
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Gallery</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Hair Trends</a>
+          </p>
+          <p>
+            <a href="product.html" class="text-reset">Hair product</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            DISCOVER
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Treatment</a>
+          </p>
+          <p>
+            Home Remedies
+            <ol>
+              <li><a href="hairlosss.html">Hair loss</a></li>
+              <li><a href="hair dryers.html">Hair dryers</a></li>
+             <li> <a href="dandruff.html">Dandruff</a></li>
+             <li><a href="oily.html">Oily Hair</a></li>
+      
+              </ol>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">User Guidlines</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> pakistan,</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            Haircare256@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +923-128625168</p>
+          <p><i class="fas fa-print me-3"></i> 021-4582585236</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <div class="lopd">
+    © 2023:
+    <a class="text-reset fw-bold" href="index.html">Hair care</a>
+  </div>
+
+<script>
+  function addtoCart() {
+    alert('Added To Cart!')
+  }
+
+  function buyNow() {
+    alert('Thanks for buying.')
+  }
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

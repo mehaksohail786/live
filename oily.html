@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <!-- animation  -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- animate pic  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- font icon  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Document</title>
+    <style>
+      body{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1417' height='556' preserveAspectRatio='none' viewBox='0 0 1417 556'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1755%26quot%3b)' fill='none'%3e%3crect width='1417' height='556' x='0' y='0' fill='url(%26quot%3b%23SvgjsRadialGradient1756%26quot%3b)'%3e%3c/rect%3e%3cpath d='M0 0L794.11 0L0 814.47z' filter='url(%23SvgjsFilter1757)' fill='rgba(162%2c 52%2c 52%2c 1)'%3e%3c/path%3e%3cpath d='M0 556L794.11 556L0 -258.47z' filter='url(%23SvgjsFilter1757)' fill='rgba(162%2c 52%2c 52%2c 1)'%3e%3c/path%3e%3cpath d='M1417 556L622.89 556L1417 -258.47z' filter='url(%23SvgjsFilter1757)' fill='rgba(162%2c 52%2c 52%2c 1)'%3e%3c/path%3e%3cpath d='M1417 0L622.89 0L1417 814.47z' filter='url(%23SvgjsFilter1757)' fill='rgba(162%2c 52%2c 52%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1755'%3e%3crect width='1417' height='556' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='50%25' cy='50%25' r='761.09' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient1756'%3e%3cstop stop-color='rgba(158%2c 0%2c 0%2c 1)' offset='0.55'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 0%2c 0%2c 1)' offset='0.8'%3e%3c/stop%3e%3c/radialGradient%3e%3cfilter height='130%25' id='SvgjsFilter1757'%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='-5' in='TopLeftG' result='TopLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopLeftO' result='TopLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='-5' in='TopRightG' result='TopRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopRightO' result='TopRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='5' in='BottomLeftG' result='BottomLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomLeftO' result='BottomLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='5' in='BottomRightG' result='BottomRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomRightO' result='BottomRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeMerge%3e%3cfeMergeNode in='TopLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='TopRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='SourceGraphic'%3e%3c/feMergeNode%3e%3c/feMerge%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e");
+     }
+     h3{
+font-family: Pacifico;
+}
+      h1{
+font-family: "Sofia", sans-serif;
+}
+.lopd{
+background-color: rgb(75, 71, 71);
+text-align: center;
+width: 100%;
+height: 40px;
+padding: 2px 2px;
+
+}
+h6{
+color: #fdf4f4;
+font-family: "Sofia", sans-serif;
+}
+p{
+  color: #fdf4f4;
+  font-family: cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h2{
+font-family: "Sofia", sans-serif;
+color: #fdf4f4;
+text-decoration:underline;
+background-color: black;
+}
+.heading {
+font-size: 80px;
+color: #fff;
+text-align: center;
+}
+.shadow-1 {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+}
+.blue-hover {
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+}
+.blue-hover:hover {
+  transform: translateY(-5px);
+  border: none;
+  border-bottom: 5px solid #f3f5f7;
+}
+ </style>
+</head>
+<body>
+ <!-- nav bar -->
+
+
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+ <h1 class="font-effect-fire text-danger text-center" style=" margin: 0;
+ font-size: 60px;
+ animation: animate 15s ease-in-out infinite;
+font-weight: 900;">Hair care
+</h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="About us.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="product.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                product's
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li class="dropdown-header">Hair care</li>
+                <li><a class="dropdown-item" href="hair cream.html">Hair Cream</a></li>
+                <li><a class="dropdown-item" href="shampoo.html">Hair shampoo</a></li>
+                <li><a class="dropdown-item" href="oil.html">Hair Oil</a></li>
+                <li><a class="dropdown-item" href="conditioner.html">Hair conditioners</a></li>
+                <li><a class="dropdown-item" href="hair mask.html">Hair Mask's</a></li>
+                <li><a class="dropdown-item" href="spray.html">Hair spray's</a></li>
+                <li><a class="dropdown-item" href="hair serum.html">Hair serum's</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ld.html">Lastest development</a>
+                </li>
+                  
+            <li class="nav-item">
+              <a class="nav-link" href="contact us.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison (1).html">comparison</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- nav bar ended  -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <h1 class="text-center">10 Ways to Fix Oily Hair</h1> 
+   <h5>Oily hair may feel unpleasant. If you’re bothered by the oil in your hair, some remedies can help it feel less greasy without stripping off your natural scalp oi</h5>
+
+<!-- 1st -->
+
+   <div class="row featurette">
+       <h2 class="featurette-heading fw-normal lh-1 text-center">1. Wash more often</h2>
+   <p>People with really oily hair may need to shampoo up to once a day, according to the American Academy of Dermatology. Shampoo helps to remove excess oil as well as debris and leftover hair products from the scalp.</p>
+</div>
+
+<!-- 2nd -->
+<div class="row featurette">
+    <h2 class="featurette-heading fw-normal lh-1 text-center">2. Wash less often</h2>
+    <p>This may seem counterintuitive. But if you’re already washing your hair once a day and you’re still greasy by day’s end, it might be worth playing with how frequently you wash your hair.</p>
+    <p>Overwashing can strip your scalp of its natural oils. This may cause it to produce more oil to rehydrate.</p>
+    <p>If you tend to have dry skin or a dry, itchy scalp in addition to oily hair, slowly stretching how frequently you wash may help balance out your scalp’s oil production.</p>
+</div>
+
+<!-- 3rd -->
+    <div class="row featurette">
+        <h2 class="featurette-heading fw-normal lh-1 text-center">3. Shampoo properly</h2>
+<p>It doesn’t seem like rocket science, but yes, you can wash your hair incorrectly and end up with an oily scalp and damaged hair.</p>
+<p>To properly wash your hair, gently work a small amount of shampoo into your roots and scalp. Avoid using your nails or creating unnecessary friction on the strands. Aggressive scrubbing can irritate your scalp and cause it to produce more oils.</p>
+<p>Focus on your scalp, where the oil is, rather than on the length of your hair. Don’t apply shampoo directly to the ends of your hair or scrub them. Instead, simply let the shampoo flow through the ends as you rinse.</p>
+</div>
+
+<!-- 4th -->
+<div class="row featurette">
+      <h2 class="featurette-heading fw-normal lh-1 text-center">4. Condition carefully</h2>
+      <p>Conditioner can make your hair look greasy and cause oils to pile up faster. Condition just the ends of your hair, and be sure to thoroughly rinse.</p>
+      </div>
+      </div>
+
+
+<!-- 5th -->
+      <div class="row featurette">
+          <h2 class="featurette-heading fw-normal lh-1 text-center">5. Go natural</h2>
+          <p>Straightening irons and blow dryers can give you a smooth, sleek finish. But they can also make your hair look greasy faster</p>
+          <p>Let your hair air-dry and embrace its natural texture. You’ll stretch out your washes and avoid heat damage</p>
+          </div>
+       
+
+
+<!-- 6th -->
+          <div class="row featurette">
+              <h2 class="featurette-heading fw-normal lh-1 text-center">6. Use products formulated for oily hair</h2>
+             <p>A lot of thought and research has gone into making hair care products live up to their hype. If your shampoo isn’t cutting it, try a clarifying shampoo that has stronger detergents. This can help lift oil and leave your hair grease-free</p>
+              <p>However, if you love sweaty workouts or find you need to wash daily, a mild baby shampoo can be less irritating and better suited for frequent use.</p>
+              </div>
+             
+          
+<!-- 7  -->
+              <div class="row featurette">
+                  <h2 class="featurette-heading fw-normal lh-1 text-center">7. Clean your brush</h2>
+                 <p>A dirty brush has no place with freshly washed hair. Your brush can be full of styling products, oils, and general gunk that can make your locks dirty immediately after washing.</p>
+                  <p>Clean up your styling tools with a bit of shampoo or gentle soap to strip off the buildup. Likewise, clean out all of the loose hair after each brushing to keep your brush free of oil and dirt.</p>
+                  </div>
+
+
+<!-- 8th  -->
+
+                  <div class="row featurette">
+                      <h2 class="featurette-heading fw-normal lh-1 text-center">8. Deep clean with aloe</h2>
+                     <p>This home remedy doesn’t just come in handy in the summer months. Aloe makes for a great hair and scalp mask since it removes extra oil, fights product buildup, soothes the scalp, and protects strands. You’ll be left with soft, healthy hair.</p>
+                      </div>
+    
+  <!-- 9th -->
+                      <div class="row featurette">
+                          <h2 class="featurette-heading fw-normal lh-1 text-center">9. Avoid products with silicone</h2>
+                      <p>Many products, including shampoos, conditioners, creams, and styling products, are made with silicone to help smooth hair and add shine.</p>
+                      <p>In addition to adding extra gloss that can look an awful lot like grease, silicones can build up on the hair and make it look dirty, oily, and weighed down. The most common silicones you’ll find in hair products include:</p>
+                      <p>Silicones can also prevent beneficial moisture from getting into the hair shafts. Do your roots a favor and skip any products with ingredients ending in “-cone.”</p>
+                   </div>
+ <!-- 10th -->
+                   <div class="row featurette">
+                    <h2 class="featurette-heading fw-normal lh-1 text-center">10.Try dry shampoo</h2>
+                    <p>Dry shampoo can be a savior in a pinch. It can’t substitute for a sudsy wet wash, but it can help dry out oils and give your hair a cleaner appearance. Many dry shampoos also add a touch of scent to help freshen up.</p>
+                    <p>The downside is that dry shampoos add residue that can make your hair and scalp feel gritty and dirty. It also dries out your hair, so it’s best to only use it every now and then and wash it off completely the next day to avoid irritation and damage.</p>
+                    </div>
+                    
+                    <br>
+                    <br>
+                    <br>
+ <!-- page nation  -->
+ <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+    </li>
+    <li class="page-item"><a class="page-link" href="hairlosss.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="dandruff.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="Dry Hair.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="oily.html">4</a></li>
+    <li class="page-item">
+    </li>
+  </ul>
+</nav>
+
+
+
+
+
+        <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-primary bg-primary btn-floating m-1" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiMuN66yICCAxXCQkECHX1UClIYABAAGgJ3cw&ase=2&gclid=Cj0KCQjwhL6pBhDjARIsAGx8D58dk7TisZPAuPb3vXRuUv1573FlffVpnepiZKT6gbpwT7QoMpisJvkaAkQNEALw_wcB&ohost=www.google.com&cid=CAESV-D2dMnR0MonlTZMaXgwSGkj1uuS5mr8fKE9lMV3oYJTHIjUqFpqZfxts7TuyQfknijAzE6oeQ4BjxVIJRgGixFH773Nw-ydm2pG_BryIe2FTQsEOWCzoA&sig=AOD64_0tL_3vfJbdD6Xnw00WYpjFgBfjlQ&q&nis=4&adurl&ved=2ahUKEwj6mti6yICCAxVESPEDHbrPDBYQ0Qx6BAgGEAE" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light bg-primary btn-floating m-1" href="https://twitter.com/login?lang=en" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light bg-primary btn-floating m-1" href="https://www.google.co.uk/" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light bg-primary btn-floating m-1" href="https://www.instagram.com/" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light bg-primary btn-floating m-1" href="https://pk.linkedin.com/" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our new Deals</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Hair care is all the things people do to keep their hair clean, healthy-looking, and attractive
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="mb-4">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Hair care
+            </h6>
+            <p>
+              Hair care is a very important and a hygienic routine for both men and women. Nobody wants to go out with a frizzy, dry and unhealthy hair. By just washing your hair doesn’t necessarily mean you are sure you’ve done it right, hair care also involves proper grooming and making sure you are using the right hair care products.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Home
+            </h6>
+            <p>
+              <a href="About us.html" class="text-reset">About</a>
+            </p>
+            <p>
+              <a href="gallery.html" class="text-reset">Gallery</a>
+            </p>
+            <p>
+              <a href="ld.html" class="text-reset">Hair Trends</a>
+            </p>
+            <p>
+              <a href="product.html" class="text-reset">Hair product</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              DISCOVER
+            </h6>
+            <p>
+              <a href="treatment .html" class="text-reset">Treatment</a>
+            </p>
+            <p>
+              Home Remedies
+              <ol>
+                <li><a href="hairlosss.html">Hair loss</a></li>
+                <li><a href="hair dryers.html">Hair dryers</a></li>
+               <li> <a href="dandruff.html">Dandruff</a></li>
+               <li><a href="oily.html">Oily Hair</a></li>
+        
+                </ol>
+            </p>
+            <p>
+              <a href="Usergidline.html" class="text-reset">User Guidlines</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> pakistan,</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              Haircare256@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +923-128625168</p>
+            <p><i class="fas fa-print me-3"></i> 021-4582585236</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+    <div class="lopd">
+      © 2023:
+      <a class="text-reset fw-bold" href="index.html">Hair care</a>
+    </div>
+  
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
